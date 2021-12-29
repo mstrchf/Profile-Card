@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  position: relative;
+  align-items: center;
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.top,
+.bottom {
+  position: absolute;
+  width: 75%;
+}
+
+.top {
+  top: -75%;
+  left: -25%;
+}
+
+.bottom {
+  bottom: -75%;
+  right: -25%;
+}
+
+.card {
+  background-color: aliceblue;
+  border-radius: 5%;
+  margin: 0 1em;
+  width: max-content;
+  text-align: center;
+  z-index: 1;
+}
+
+.card-header img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.profile {
+  width: 30%;
+  margin: auto;
+  position: relative;
+  bottom: 3.5em;
+}
+
+.profile img {
+  border-radius: 50%;
+  outline: 0.3em solid aliceblue;
+}
+
+.info {
+  margin-bottom: 2em;
+  margin-top: -2em;
+}
+
+.info p {
+    margin-top: .75em;
+    font-size: 0.9em;
+    color: gray;
+}
+
+.info span:last-of-type {
+    color: gray;
+}
+
+.name, .footer p {
+    color: hsl(229, 23%, 23%);
+    font-size: 1em;
+    font-weight: 700;
+}
+
+
+.footer {
+  border-top: 1px solid rgba(128, 128, 128, 0.322);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.5em 1em;
+}
+
+.footer div {
+    line-height: 1.25em;
+}
+
+.footer span {
+  font-size: 0.65em;
+  letter-spacing: 0.175em;
+  color: gray;
+}
